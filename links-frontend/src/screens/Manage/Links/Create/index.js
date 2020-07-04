@@ -1,8 +1,10 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Layout from '../../../Layouts/Manage';
 import { getFormData } from '../../../../helpers/form';
 import { linkCreate } from '../../../../actions/LinkActions';
+
 
 const Create = ({link, linkCreate}) => {
 
@@ -12,7 +14,9 @@ const Create = ({link, linkCreate}) => {
         linkCreate(data);
     };
 
-    console.log('*** Create.link', link);
+    if(link){
+       return <Redirect to="/manage/links" />
+    }
 
     return(
         <Layout>
