@@ -39,7 +39,7 @@ const Create = ({link, linkCreate}) => {
                         </label>
                     </div>
                     <div>
-                        <button className="btn btn-primary btn-round">Submit</button>
+                        <button className="btn btn-dark btn-round">Submit</button>
                     </div>
                 </form>
             </div>

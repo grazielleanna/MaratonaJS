@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { signOut } from '../../../actions/AccountActions';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 
 const Layout = ({ children, signOut, account }) => {
 
@@ -13,16 +13,20 @@ const Layout = ({ children, signOut, account }) => {
         e.preventDefault();
         signOut();
     }
+    
+    function goBack(){
+        window.history.back();
+    }
 
     return(
         <div className="layout">
-            <nav className="navbar navbar-expand-lg bg-primary text-light">
+            <nav className="navbar navbar-expand-lg bg-dark text-light">
                 <div className="container d-flex w-100 justify-content-between">
                     <div>
-                        <span>BACK</span>
+                        <button className="btn btn-clear" onClick={goBack}>Back</button>
                     </div>
                     <div className="text-center">
-                        <strong>Links</strong>
+                        <Link to="/manage/links" className="btn btn-clear">Links</Link>
                     </div>
                     <div>
                         <button className="btn btn-clear" onClick={signOutHandler}>Exit</button>

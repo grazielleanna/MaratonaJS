@@ -8,7 +8,6 @@ import FormGroup from '../../../../components/FormGroup';
 import FormCheck from '../../../../components/FormCheck';
 import { getFormData } from '../../../../helpers/form';
 
-
 const Edit = ({ link, linkGet, linkUpdate }) => {
     const { id } = useParams();
 
@@ -32,7 +31,7 @@ const Edit = ({ link, linkGet, linkUpdate }) => {
                     <FormCheck label="Is Social" name="Is Social" data={link} />
                     
                     <div>
-                        <button className="btn btn-primary btn-round">Submit</button>
+                        <button className="btn btn-dark btn-round">Submit</button>
                     </div>
                 </form>
             </div>
