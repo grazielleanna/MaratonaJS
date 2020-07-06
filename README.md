@@ -18,6 +18,5 @@ https://user-images.githubusercontent.com/53841934/86631211-37354080-bfa4-11ea-9
 https://user-images.githubusercontent.com/53841934/86631215-37cdd700-bfa4-11ea-9580-63b6c8acd85d.PNG
 https://user-images.githubusercontent.com/53841934/86631216-38666d80-bfa4-11ea-9064-f21e74d839ba.PNG
 
-
 <h3>Conclusão</h3>
 <p>Durante a Maratona pude adquirir muito conhecimento tanto no <b>back-end</b> realizando login com JWT, como no <b>front-end</b> apesar de ter sido uma simples apliacação. Agradeço pela oportunidade única em poder aprender com um profissional senior tão qualificado e com uma ótima didática.</p>
