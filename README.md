@@ -11,7 +11,7 @@
 </ul>
 
 <h3>Telas</h3>
-![signup](https://user-images.githubusercontent.com/53841934/86630994-f5a49580-bfa3-11ea-8258-33dd8e68a4d6.PNG)
+(https://user-images.githubusercontent.com/53841934/86630994-f5a49580-bfa3-11ea-8258-33dd8e68a4d6.PNG)
 
 
 <h3>Conclusão</h3>
