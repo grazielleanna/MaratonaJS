@@ -19,9 +19,9 @@ const SignUp = (props) => {
 
     return(
         <div className="container h-100 pt-5">
-            <h1>Sign Up</h1>
+            <h1 className="text-center">Sign Up</h1>
             <div className="d-flex flex-column h-100">
-                <form onSubmit={submitHandler}>
+                <form onSubmit={submitHandler} style={{width: "75%", margin: "auto"}}>
                     <div className="form-group">
                         <label>Email</label>
                         <input type="text" className="form-control" name="email" />
@@ -35,12 +35,12 @@ const SignUp = (props) => {
                         <input type="password" className="form-control" name="password_confirmation" />
                     </div>
                     <div>
-                        <button className="btn btn-primary btn-round">Submit</button>
+                        <button className="btn btn-dark btn-round">Submit</button>
                     </div>
                 </form>
                 <div className="container text-center fixed-bottom pb-5">
                     <div className="text-muted">Already have an Account?</div>
-                    <Link to="/sign-in">Sign In</Link>
+                    <Link to="/sign-in" className="text-danger">Sign In</Link>
                 </div>
             </div>
         </div>

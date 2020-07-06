@@ -23,9 +23,10 @@ const Edit = ({ link, linkGet, linkUpdate }) => {
 
     return(
         <Layout>
-            <h1>Edit Link</h1>
+            <h1 className="text-center">Edit Link</h1>
+            <p className="text-center">Update your link information.</p>
             <div>
-                <form onSubmit={submitHandler}>
+                <form onSubmit={submitHandler} style={{width: "75%", margin: "auto"}}>
                     <FormGroup label="Label" name="label" data={link} type="text" />
                     <FormGroup label="Url" name="url" data={link} type="text" />
                     <FormCheck label="Is Social" name="Is Social" data={link} />

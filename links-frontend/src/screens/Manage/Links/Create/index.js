@@ -20,9 +20,10 @@ const Create = ({link, linkCreate}) => {
 
     return(
         <Layout>
-            <h1>Create Link</h1>
+            <h1 className="text-center">Create Link</h1>
+            <p className="text-center">Enter the name and url of your link.</p>
             <div>
-                <form onSubmit={submitHandler}>
+                <form onSubmit={submitHandler} style={{width: "75%", margin: "auto"}}>
                     <div className="form-group">
                         <label>Label</label>
                         <input type="text" className="form-control" name="label" />
